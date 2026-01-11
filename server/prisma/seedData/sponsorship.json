@@ -1,0 +1,50 @@
+[
+  {
+    "sponsorId": "s1",
+    "eventId": "hack-01",
+    "domainId": "do-6",
+    "sponsorName": "Google",
+    "type": "cash",
+    "amount": 1200000
+  },
+  {
+    "sponsorId": "s2",
+    "eventId": "hack-01",
+    "domainId": "do-6",
+    "sponsorName": "CRED",
+    "type": "cash",
+    "amount": 400000
+  },
+  {
+    "sponsorId": "s3",
+    "eventId": "hack-02",
+    "domainId": "do-6",
+    "sponsorName": "Oracle",
+    "type": "cash",
+    "amount": 400000
+  },
+  {
+    "sponsorId": "s4",
+    "eventId": "game-02",
+    "domainId": "do-6",
+    "sponsorName": "INR Cycle World",
+    "type": "prize pool",
+    "amount": 20000
+  },
+  {
+    "sponsorId": "s5",
+    "eventId": "idea-01",
+    "domainId": "do-6",
+    "sponsorName": "Hp",
+    "type": "prize pool",
+    "amount": 520000
+  },
+  {
+    "sponsorId": "s6",
+    "eventId": "idea-01",
+    "domainId": "do-6",
+    "sponsorName": "Hp",
+    "type": "cash",
+    "amount": 200000
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "rnrId": "r1",
+    "eventId": "hack-01",
+    "domainId": "do-5",
+    "ticketSold": 750,
+    "regFee": 0,
+    "ticketProfit": 0,
+    "prizePool": 400000
+  },
+  {
+    "rnrId": "r2",
+    "eventId": "hack-02",
+    "domainId": "do-5",
+    "ticketSold": 175,
+    "regFee": 0,
+    "ticketProfit": 0,
+    "prizePool": 150000
+  },
+  {
+    "rnrId": "r3",
+    "eventId": "game-01",
+    "domainId": "do-5",
+    "ticketSold": 350,
+    "regFee": 250,
+    "ticketProfit": 87500,
+    "prizePool": 0
+  },
+  {
+    "rnrId": "r4",
+    "eventId": "game-02",
+    "domainId": "do-5",
+    "ticketSold": 250,
+    "regFee": 250,
+    "ticketProfit": 62500,
+    "prizePool": 20000
+  },
+  {
+    "rnrId": "r5",
+    "eventId": "idea-01",
+    "domainId": "do-5",
+    "ticketSold": 100,
+    "regFee": 50,
+    "ticketProfit": 5000,
+    "prizePool": 0
+  },
+  {
+    "rnrId": "r6",
+    "eventId": "idea-02",
+    "domainId": "do-5",
+    "ticketSold": 65,
+    "regFee": 350,
+    "ticketProfit": 22750,
+    "prizePool": 0
+  }
+]

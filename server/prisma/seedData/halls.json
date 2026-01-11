@@ -1,0 +1,79 @@
+[
+  {
+    "hallId": "h1",
+    "eventId": "hack-01",
+    "domainId": "do-2",
+    "hallName": "Anna Auditorium",
+    "rentalCost": 20000,
+    "capacity": 1300,
+    "roomsRequired": 1,
+    "hoursRequired": 12,
+    "totalCost": 240000
+  },
+  {
+    "hallId": "h2",
+    "eventId": "hack-01",
+    "domainId": "do-2",
+    "hallName": "MB Class Room",
+    "rentalCost": 2000,
+    "capacity": 60,
+    "roomsRequired": 11,
+    "hoursRequired": 36,
+    "totalCost": 792000
+  },
+  {
+    "hallId": "h3",
+    "eventId": "hack-02",
+    "domainId": "do-2",
+    "hallName": "Chenna Reddy Auditorium",
+    "rentalCost": 7500,
+    "capacity": 500,
+    "roomsRequired": 1,
+    "hoursRequired": 20,
+    "totalCost": 150000
+  },
+  {
+    "hallId": "h4",
+    "eventId": "hack-02",
+    "domainId": "do-2",
+    "hallName": "Chenna Reddy Auditorium",
+    "rentalCost": 7500,
+    "capacity": 500,
+    "roomsRequired": 1,
+    "hoursRequired": 20,
+    "totalCost": 150000
+  },
+  {
+    "hallId": "h5",
+    "eventId": "game-01",
+    "domainId": "do-2",
+    "hallName": "SJT Class Room",
+    "rentalCost": 2000,
+    "capacity": 60,
+    "roomsRequired": 2,
+    "hoursRequired": 8,
+    "totalCost": 32000
+  },
+  {
+    "hallId": "h6",
+    "eventId": "idea-01",
+    "domainId": "do-2",
+    "hallName": "Shakespeare Gallery",
+    "rentalCost": 7500,
+    "capacity": 125,
+    "roomsRequired": 1,
+    "hoursRequired": 4,
+    "totalCost": 30000
+  },
+  {
+    "hallId": "h7",
+    "eventId": "idea-02",
+    "domainId": "do-2",
+    "hallName": "VOC TT Gallery",
+    "rentalCost": 90000,
+    "capacity": 300,
+    "roomsRequired": 1,
+    "hoursRequired": 8,
+    "totalCost": 72000
+  }
+]

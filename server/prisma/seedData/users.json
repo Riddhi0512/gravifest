@@ -1,0 +1,209 @@
+[
+  {
+    "userId": "u-0001",
+    "name": "Aaryan",
+    "gender": "Male",
+    "email": "aaryanvenkat1@gmail.com",
+    "phoneNumber": 7708490411,
+    "userType": "individual",
+    "apparId": true
+  },
+  {
+    "userId": "u-0002",
+    "name": "Aashman Gupta",
+    "gender": "Male",
+    "email": "aashman.gupta2023@vitstudent.ac.in",
+    "phoneNumber": 9429463045,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0003",
+    "name": "ABHINESH",
+    "gender": "Male",
+    "email": "abhineshs583224106003@nprcolleges.org",
+    "phoneNumber": 8667475926,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0004",
+    "name": "Aditya Pratap singh",
+    "gender": "Male",
+    "email": "adityapratapsingh2803@gmail.com",
+    "phoneNumber": 9140804752,
+    "userType": "internal",
+    "apparId": false
+  },
+  {
+    "userId": "u-0005",
+    "name": "AGRAWAL VASU RAKESHBHAI",
+    "gender": "Male",
+    "email": "agrawalrakeshbhai24bcy12@iiitkottayam.ac.in",
+    "phoneNumber": 9429463045,
+    "userType": "individual",
+    "apparId": true
+  },
+  {
+    "userId": "u-0006",
+    "name": "Akhilesh Reddy",
+    "gender": "Male",
+    "email": "reddyakhil845@gmail.com",
+    "phoneNumber": 6303487822,
+    "userType": "individual",
+    "apparId": true
+  },
+  {
+    "userId": "u-0007",
+    "name": "Aleena",
+    "gender": "Female",
+    "email": "aleenasebastian311@gmail.com",
+    "phoneNumber": 9188616710,
+    "userType": "internal",
+    "apparId": false
+  },
+  {
+    "userId": "u-0008",
+    "name": "Amarnath",
+    "gender": "Male",
+    "email": "amarnathsanilkumar6@gmail.com",
+    "phoneNumber": 8870549305,
+    "userType": "individual",
+    "apparId": true
+  },
+  {
+    "userId": "u-0009",
+    "name": "Ammula",
+    "gender": "Female",
+    "email": "ammulaanusha53@gmail.com",
+    "phoneNumber": 9502218213,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0010",
+    "name": "Amudha Lakshmi I Biology Teacher",
+    "gender": "Female",
+    "email": "amudhalakshmi.cbse@kingston.ac.in",
+    "phoneNumber": 9365807801,
+    "userType": "school",
+    "apparId": false
+  },
+  {
+    "userId": "u-0011",
+    "name": "Anik",
+    "gender": "Male",
+    "email": "anikg2007@gmail.com",
+    "phoneNumber": 9313848207,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0012",
+    "name": "Antony",
+    "gender": "Male",
+    "email": "antonyjosen15@gmail.com",
+    "phoneNumber": 7736628244,
+    "userType": "individual",
+    "apparId": true
+  },
+  {
+    "userId": "u-0013",
+    "name": "Anusuya",
+    "gender": "Female",
+    "email": "anusuyaa11205@gmail.com",
+    "phoneNumber": 8610357843,
+    "userType": "professional",
+    "apparId": true
+  },
+  {
+    "userId": "u-0014",
+    "name": "Archana",
+    "gender": "Female",
+    "email": "archanasnidhij82007@gmail.com",
+    "phoneNumber": 9846945469,
+    "userType": "internal",
+    "apparId": false
+  },
+  {
+    "userId": "u-0015",
+    "name": "ARUNKUMAR",
+    "gender": "Male",
+    "email": "arunkumarg583224106011@nprcolleges.org",
+    "phoneNumber": 9344995495,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0016",
+    "name": "Atul",
+    "gender": "Male",
+    "email": "atularora0207@gmail.com",
+    "phoneNumber": 8474938110,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0017",
+    "name": "Beulah",
+    "gender": "Female",
+    "email": "beulahsamson2005@gmail.com",
+    "phoneNumber": 6383059594,
+    "userType": "internal",
+    "apparId": false
+  },
+  {
+    "userId": "u-0018",
+    "name": "Biswajit",
+    "gender": "Male",
+    "email": "biswa2020jit@gmail.com",
+    "phoneNumber": 7008437252,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0019",
+    "name": "Bittu",
+    "gender": "Male",
+    "email": "badwanibittu@gmail.com",
+    "phoneNumber": 7000098892,
+    "userType": "internal",
+    "apparId": true
+  },
+  {
+    "userId": "u-0020",
+    "name": "CHETHAN",
+    "gender": "Male",
+    "email": "chethanprakashbn.cd24@rvce.edu.in",
+    "phoneNumber": 9620520350,
+    "userType": "individual",
+    "apparId": false
+  },
+  {
+    "userId": "u-0021",
+    "name": "BA1-30 Karthika shree",
+    "gender": "Female",
+    "email": "karthi147006@gmail.com",
+    "phoneNumber": 7904891646,
+    "userType": "professional",
+    "apparId": true
+  },
+  {
+    "userId": "u-0022",
+    "name": "BA1-38 Christopher Yogesh M",
+    "gender": "Male",
+    "email": "christopheryogesh@gmail.com",
+    "phoneNumber": 9042517229,
+    "userType": "professional",
+    "apparId": true
+  },
+  {
+    "userId": "u-0023",
+    "name": "BA1-53 Pavithra",
+    "gender": "Female",
+    "email": "pavithrabaskar804@gmail.com",
+    "phoneNumber": 6381242840,
+    "userType": "professional",
+    "apparId": true
+  }
+]

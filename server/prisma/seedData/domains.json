@@ -1,0 +1,30 @@
+[
+  {
+    "domainId": "do-1",
+    "domainName": "Purchase"
+  },
+    {
+    "domainId": "do-2",
+    "domainName": "Halls"
+  },
+    {
+    "domainId": "do-3",
+    "domainName": "Guest Care"
+  },
+    {
+    "domainId": "do-4",
+    "domainName": "Transport"
+  },
+    {
+    "domainId": "do-5",
+    "domainName": "Rewards and Recognition"
+  },
+    {
+    "domainId": "do-6",
+    "domainName": "Sponsorship"
+  },
+    {
+    "domainId": "do-7",
+    "domainName": "Finance"
+  }
+]

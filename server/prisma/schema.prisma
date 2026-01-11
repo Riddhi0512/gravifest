@@ -1,0 +1,224 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// --- ENUMS ---
+// Enums provide type-safety for fields with a fixed set of values.
+
+enum Gender {
+  Male
+  Female
+}
+
+enum UserType {
+  individual
+  internal
+  school
+  professional
+}
+
+// New Enum for Payment Modes
+enum PaymentMode {
+  UPI
+  CASH
+  CREDIT_CARD
+  DEBIT_CARD
+  NET_BANKING
+  PENDING_CASH
+  PENDING_NET_BANKING
+  PENDING_CREDIT_CARD
+  PENDING_UPI
+}
+// --- CORE MODELS ---
+
+model Users {
+  userId        String         @id
+  name          String
+  gender        Gender
+  email         String         @unique
+  phoneNumber   BigInt
+  userType      UserType
+  apparId       Boolean        @default(false)   // New field to track if apparId is submitted
+
+  // A user can make many registrations
+  registrations Registration[]
+}
+
+
+model Domains {
+  domainId   String   @id
+  domainName String
+
+  // A domain can be associated with many financial records, purchases, etc.
+  Finance      Finance[]
+  Purchase     Purchase[]
+  Halls        Halls[]
+  Gc           Gc[]
+  Transport    Transport[]
+  Rnr          Rnr[]
+  Sponsorship  Sponsorship[]
+}
+
+model Events {
+  eventId       String   @id
+  eventName     String
+  organiserName String
+  regFee        Int
+  totalTickets  Int
+  buzzMeter     Float
+  ticketSold    Int
+  ticketLeft    Int
+  startDate     DateTime
+  endDate       DateTime
+  status        Boolean
+
+  // An event can have many registrations, purchases, guests, etc.
+  registrations Registration[]
+  finances      Finance[]
+  purchases     Purchase[]
+  halls         Halls[]
+  guests        Gc[]
+  transports    Transport[]
+  rnrDetails    Rnr[]
+  sponsorships  Sponsorship[]
+}
+
+
+// --- EVENT DETAIL MODELS ---
+
+model Registration {
+  regId         String      @id
+  paymentStatus Boolean
+  // CHANGED: Using the new PaymentMode enum for type safety
+  paymentMode   PaymentMode 
+  regDate       DateTime
+
+  // Relations: A registration connects one user to one event
+  userId  String
+  user    Users  @relation(fields: [userId], references: [userId])
+  eventId String
+  event   Events @relation(fields: [eventId], references: [eventId])
+}
+
+
+model Purchase {
+  purchaseId    String  @id
+  itemName      String
+  quantity      Int
+  unitCost      Float
+  referenceLink String?
+  totalCost     Float
+
+  // Relations
+  eventId  String
+  event    Events  @relation(fields: [eventId], references: [eventId])
+  domainId String
+  domain   Domains @relation(fields: [domainId], references: [domainId])
+}
+
+model Halls {
+  hallId        String @id
+  hallName      String
+  rentalCost    Float
+  capacity      Int
+  roomsRequired Int
+  hoursRequired Int
+  totalCost     Float
+
+  // Relations
+  eventId  String
+  event    Events  @relation(fields: [eventId], references: [eventId])
+  domainId String
+  domain   Domains @relation(fields: [domainId], references: [domainId])
+}
+
+model Gc {
+  gcId             String @id
+  guestName        String
+  hospitalityCost  Float
+  accomadationCost Float
+  guestCost        Float
+
+  // Relations
+  transports Transport[] // A guest can have multiple transport legs
+  eventId    String
+  event      Events      @relation(fields: [eventId], references: [eventId])
+  domainId   String
+  domain     Domains     @relation(fields: [domainId], references: [domainId])
+}
+
+model Transport {
+  transportId String @id
+  vehicleType String @map("veichalType") // Corrected typo from JSON
+  vehicleCost Float  @map("veichalCost") // Corrected typo from JSON
+  distance    Float
+  driverBata  Float  @map("driver bata") // Handled space in field name
+  tCost       Float
+
+  // Relations
+  gcId     String
+  guest    Gc      @relation(fields: [gcId], references: [gcId])
+  eventId  String
+  event    Events  @relation(fields: [eventId], references: [eventId])
+  domainId String
+  domain   Domains @relation(fields: [domainId], references: [domainId])
+}
+
+model Sponsorship {
+  sponsorId   String @id
+  sponsorName String
+  type        String
+  amount      Float
+
+  // Relations
+  eventId  String
+  event    Events  @relation(fields: [eventId], references: [eventId])
+  domainId String
+  domain   Domains @relation(fields: [domainId], references: [domainId])
+}
+
+model Rnr {
+  rnrId        String @id
+  ticketSold   Int
+  regFee       Int
+  ticketProfit Float
+  prizePool    Float
+
+  // Relations
+  eventId  String
+  event    Events  @relation(fields: [eventId], references: [eventId])
+  domainId String
+  domain   Domains @relation(fields: [domainId], references: [domainId])
+}
+
+
+// --- SUMMARY MODELS ---
+
+model Finance {
+  financeId        String  @id
+  pCost            Float
+  hCost            Float
+  gCost            Float
+  tCost            Float
+  sGot             Float
+  prizePool        Float
+  ticketProfit     Float
+  totalRevenue     Float
+  totalExpenditure Float
+  profit_loss      Float
+  status           Boolean
+
+  // Relations
+  eventId  String
+  event    Events  @relation(fields: [eventId], references: [eventId])
+  domainId String
+  domain   Domains @relation(fields: [domainId], references: [domainId])
+}

@@ -1,0 +1,426 @@
+[
+  {
+    "regId": "reg001",
+    "userId": "u-0001",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg002",
+    "userId": "u-0002",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg003",
+    "userId": "u-0003",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg004",
+    "userId": "u-0004",
+    "eventId": "hack-01",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_CASH",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg005",
+    "userId": "u-0004",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg006",
+    "userId": "u-0007",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-21T00:00:00.000Z"
+  },
+  {
+    "regId": "reg007",
+    "userId": "u-0008",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-21T00:00:00.000Z"
+  },
+  {
+    "regId": "reg008",
+    "userId": "u-0009",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-21T00:00:00.000Z"
+  },
+  {
+    "regId": "reg009",
+    "userId": "u-0010",
+    "eventId": "hack-01",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_NET_BANKING",
+    "regDate": "2025-09-21T00:00:00.000Z"
+  },
+  {
+    "regId": "reg010",
+    "userId": "u-0010",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "regId": "reg011",
+    "userId": "u-0011",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg012",
+    "userId": "u-0012",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg013",
+    "userId": "u-0013",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg014",
+    "userId": "u-0014",
+    "eventId": "hack-01",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_CREDIT_CARD",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg015",
+    "userId": "u-0014",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg016",
+    "userId": "u-0017",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg017",
+    "userId": "u-0018",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg018",
+    "userId": "u-0019",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg019",
+    "userId": "u-0020",
+    "eventId": "hack-01",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_UPI",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg020",
+    "userId": "u-0020",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg021",
+    "userId": "u-0021",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "regId": "reg022",
+    "userId": "u-0022",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "regId": "reg023",
+    "userId": "u-0023",
+    "eventId": "hack-01",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "regId": "reg024",
+    "userId": "u-0002",
+    "eventId": "game-01",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "regId": "reg025",
+    "userId": "u-0004",
+    "eventId": "game-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "regId": "reg026",
+    "userId": "u-0007",
+    "eventId": "game-01",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "regId": "reg027",
+    "userId": "u-0008",
+    "eventId": "game-01",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "regId": "reg028",
+    "userId": "u-0009",
+    "eventId": "game-01",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "regId": "reg029",
+    "userId": "u-0010",
+    "eventId": "game-01",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_CASH",
+    "regDate": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "regId": "reg030",
+    "userId": "u-0010",
+    "eventId": "game-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "regId": "reg031",
+    "userId": "u-0001",
+    "eventId": "idea-01",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg032",
+    "userId": "u-0002",
+    "eventId": "idea-01",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg033",
+    "userId": "u-0003",
+    "eventId": "idea-01",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg034",
+    "userId": "u-0004",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg035",
+    "userId": "u-0004",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "regId": "reg036",
+    "userId": "u-0007",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "regId": "reg037",
+    "userId": "u-0008",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "regId": "reg038",
+    "userId": "u-0009",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "regId": "reg039",
+    "userId": "u-0010",
+    "eventId": "game-02",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_CREDIT_CARD",
+    "regDate": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "regId": "reg040",
+    "userId": "u-0010",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "regId": "reg041",
+    "userId": "u-0011",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg042",
+    "userId": "u-0012",
+    "eventId": "game-02",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg043",
+    "userId": "u-0013",
+    "eventId": "idea-02",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg044",
+    "userId": "u-0014",
+    "eventId": "idea-02",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg045",
+    "userId": "u-0014",
+    "eventId": "hack-02",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg046",
+    "userId": "u-0017",
+    "eventId": "hack-02",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "regId": "reg047",
+    "userId": "u-0018",
+    "eventId": "hack-02",
+    "paymentStatus": true,
+    "paymentMode": "CREDIT_CARD",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg048",
+    "userId": "u-0019",
+    "eventId": "hack-02",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg049",
+    "userId": "u-0020",
+    "eventId": "hack-02",
+    "paymentStatus": false,
+    "paymentMode": "PENDING_NET_BANKING",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg050",
+    "userId": "u-0020",
+    "eventId": "idea-02",
+    "paymentStatus": true,
+    "paymentMode": "UPI",
+    "regDate": "2025-09-16T00:00:00.000Z"
+  },
+  {
+    "regId": "reg051",
+    "userId": "u-0021",
+    "eventId": "idea-02",
+    "paymentStatus": true,
+    "paymentMode": "CASH",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "regId": "reg052",
+    "userId": "u-0022",
+    "eventId": "idea-02",
+    "paymentStatus": true,
+    "paymentMode": "NET_BANKING",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "regId": "reg053",
+    "userId": "u-0023",
+    "eventId": "idea-02",
+    "paymentStatus": true,
+    "paymentMode": "DEBIT_CARD",
+    "regDate": "2025-09-17T00:00:00.000Z"
+  }
+]

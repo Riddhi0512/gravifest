@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Strictness */
+    "strict": true,
+
+    /* Output */
+    "outDir": "./dist",
+    "rootDir": "source",
+    "sourceMap": true,
+
+    /* Node.js types */
+    "types": ["node"]
+  },
+  "include": ["source/**/*"]
+  // "exclude": ["node_modules"]
+}
+

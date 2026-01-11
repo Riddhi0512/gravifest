@@ -1,0 +1,29 @@
+[
+  {
+    "gcId": "g1",
+    "eventId": "hack-01",
+    "domainId": "do-3",
+    "guestName": "Nikita Gandhi",
+    "hospitalityCost": 1500,
+    "accomadationCost": 0,
+    "guestCost": 0
+  },
+  {
+    "gcId": "g2",
+    "eventId": "hack-02",
+    "domainId": "do-3",
+    "guestName": "Dr. Manish Gupta",
+    "hospitalityCost": 45000,
+    "accomadationCost": 3999,
+    "guestCost": 48999
+  },
+  {
+    "gcId": "g3",
+    "eventId": "hack-02",
+    "domainId": "do-3",
+    "guestName": "Prof. P. J. Narayanan",
+    "hospitalityCost": 25000,
+    "accomadationCost": 2499,
+    "guestCost": 27499
+  }
+]
